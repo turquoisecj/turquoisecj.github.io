@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <!-- outfit google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+
+        <title>Frontend Mentor | QR code component</title>
+
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <style>
+            html {
+                width: 100%;
+                height: 100%;
+            }
+            body {
+                width: 100%;
+                height: 100%;
+                background-color: hsl(212, 45%, 89%);
+                margin: 0;
+            }
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                width: 100%;
+                height: 100%;
+            }
+            p {
+                margin: 0;
+            }
+            .attribution {
+                font-size: 0.6875rem;
+                text-align: center;
+            }
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+            .qr-component-wrapper {
+                width: 320px;
+                text-align: center;
+                background-color: white;
+                padding-top: 16px;
+                padding-inline: 16px;
+                padding-bottom: 40px;
+                border-radius: 20px;
+                .qr-image {
+                    border-radius: 10px;
+                    width: 100%;
+                    margin-bottom: 24px;
+                }
+                .qr-info {
+                    padding-inline: 16px;
+                }
+            }
+            .outfit-caption-title,
+            .outfit-caption-description {
+                font-family: "Outfit", sans-serif;
+                font-optical-sizing: auto;
+            }
+            .outfit-caption-title {
+                font-size: 22px;
+                font-weight: 700;
+                font-style: normal;
+                line-height: 1.2;
+                color: hsl(218, 44%, 22%);
+                letter-spacing: 0;
+                margin: 0;
+            }
+            .outfit-caption-description {
+                font-size: 15px;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 1.4;
+                color: hsl(216, 15%, 48%);
+                letter-spacing: 0.2px;
+                padding-top: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <main class="main-content">
+            <figure class="qr-component-wrapper">
+                <div class="qr-component">
+                    <img
+                        src="./images/image-qr-code.png"
+                        alt="a qr code to visit Frontend Mentor site"
+                        class="qr-image"
+                    />
+                    <figcaption class="qr-info">
+                        <p class="outfit-caption-title">
+                            Improve your front-end skills by building projects
+                        </p>
+                        <p class="outfit-caption-description">
+                            Scan the QR code to visit Frontend Mentor and take
+                            your coding skills to the next level
+                        </p>
+                    </figcaption>
+                </div>
+            </figure>
+        </main>
+        <footer class="attribution">
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge"
+                >Frontend Mentor</a
+            >. Coded by
+            <a href="https://github.com/turquoisecj">turquoisecj</a>.
+        </footer>
+    </body>
+</html>
