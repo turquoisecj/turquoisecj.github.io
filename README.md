@@ -1,1 +1,0 @@
-# turquoisecj.github.io
