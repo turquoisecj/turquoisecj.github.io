@@ -23,8 +23,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ![QR Code Component Screenshot](./screenshot-qr-component.png)
 ![QR Code Component Sreenshot Close](./screenshot-qr-component-close.png);
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/qr-code-component-with-semantic-html-markup-tUz-cnvcdR)
+- Live Site URL: [github page](https://turquoisecj.github.io/projects/qr-code-component/)
 
 ## My process
 
